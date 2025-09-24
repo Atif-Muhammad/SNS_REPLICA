@@ -28,27 +28,27 @@ This system supports enqueueing, dequeueing, updating task status, and maintaini
 ├── queue.jsonl # Persistent task store (JSON Lines format)
 ├── queue.meta.json # Metadata (offsets, counts)
 └── README.md
-
+```
 
 ---
 
 ## Installation
 
 1. Clone this repository:
-
+```bash
 git clone <your-repo-url>
 cd <your-repo>
-
+```
 
 2. Install dependencies:
-
+```bash
 npm install
-
+```
 
 3. Run the example usage:
-
+```bash
 node index.js
-
+```
 
 ---
 
