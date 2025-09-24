@@ -47,7 +47,7 @@ npm install
 
 3. Run the example usage:
 ```bash
-node index.js
+node main.js
 ```
 
 ---
