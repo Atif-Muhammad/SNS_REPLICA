@@ -71,21 +71,22 @@ enqueue({
 
 ### Dequeue a Task
 
+```bash
 import { dequeue } from "./dequeue.js";
 
 let task = dequeue();
 console.log("Dequeued:", task);
-
+```
 
 ---
 
 ### Update Task Status
-
+```bash
 import { updateStatus } from "./updateStatus.js";
 
 // Mark task as DONE
 updateStatus("unique-task-id", "DONE");
-
+```
 
 ---
 
@@ -101,13 +102,13 @@ updateStatus("unique-task-id", "DONE");
 ## Data Files
 
 - **queue.jsonl** → stores tasks in JSON Lines format:  
-
-{"id":"task-1","title":"Task 1","description":"Description","status":"DONE","tries":1}
-{"id":"task-2","title":"Task 2","description":"Description","status":"PENDING","tries":0}
-
+```bash
+    {"id":"task-1","title":"Task 1","description":"Description","status":"DONE","tries":1}
+    {"id":"task-2","title":"Task 2","description":"Description","status":"PENDING","tries":0}
+```
 
 - **queue.meta.json** → tracks metadata:  
-
+```bash
 {
     "readOffset": 0,
     "writeOffset": 41,
@@ -117,12 +118,12 @@ updateStatus("unique-task-id", "DONE");
     "doneCount": 41,
     "failedCount": 0
 }
-
+```
 
 ---
 
 ## Example End-to-End Flow
-
+```bash
 import { enqueue } from "./enqueue.js";
 import { dequeue } from "./dequeue.js";
 import { updateStatus } from "./updateStatus.js";
@@ -137,7 +138,7 @@ console.log("Dequeued:", task);
 
 // Update status after processing
 updateStatus(task?.id, "DONE");
-
+```
 
 ---
 
