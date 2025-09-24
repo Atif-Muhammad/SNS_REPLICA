@@ -17,7 +17,7 @@ This system supports enqueueing, dequeueing, updating task status, and maintaini
 ---
 
 ## Project Structure
-
+```text
 .
 ├── enqueue.js # Add new tasks
 ├── dequeue.js # Retrieve and process tasks
