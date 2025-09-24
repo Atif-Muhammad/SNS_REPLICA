@@ -36,7 +36,7 @@ This system supports enqueueing, dequeueing, updating task status, and maintaini
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Atif-Muhammad/SNS_REPLICA.git
 cd <your-repo>
 ```
 
