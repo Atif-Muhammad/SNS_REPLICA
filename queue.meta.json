@@ -1,0 +1,9 @@
+{
+  "readOffset": 0,
+  "writeOffset": 41,
+  "totalMessages": 41,
+  "pendingCount": 0,
+  "processingCount": 0,
+  "doneCount": 41,
+  "failedCount": 0
+}
