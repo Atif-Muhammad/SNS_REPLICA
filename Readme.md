@@ -55,7 +55,7 @@ node index.js
 ## Usage
 
 ### Enqueue a Task
-
+```bash
 import { enqueue } from "./enqueue.js";
 
 enqueue({
@@ -65,7 +65,7 @@ enqueue({
     status: "PENDING",
     tries: 0
 });
-
+```
 
 ---
 
